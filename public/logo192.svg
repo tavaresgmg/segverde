@@ -1,0 +1,50 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ícone para PWA - tamanho 192x192 -->
+  <defs>
+    <radialGradient id="pwa192Gradient" cx="0.35" cy="0.35" r="0.8">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="70%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </radialGradient>
+    <linearGradient id="leaf192Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7"/>
+      <stop offset="30%" stop-color="#34d399"/>
+      <stop offset="70%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <filter id="shadow192" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="3" stdDeviation="4" flood-color="#065f46" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  
+  <!-- Fundo principal -->
+  <circle cx="96" cy="96" r="88" fill="url(#pwa192Gradient)" stroke="#047857" stroke-width="6" filter="url(#shadow192)"/>
+  
+  <!-- Folha principal -->
+  <path d="M48 140 Q54 48 96 60 Q138 48 144 140 Q138 168 96 156 Q54 168 48 140 Z" 
+        fill="url(#leaf192Gradient)" stroke="#065f46" stroke-width="4"/>
+  
+  <!-- Nervura central */
+  <path d="M96 60 Q96 84 96 156" stroke="#047857" stroke-width="5" fill="none"/>
+  
+  <!-- Nervuras secundárias */
+  <path d="M72 90 Q84 84 96 90 Q108 84 120 90" stroke="#047857" stroke-width="3.5" fill="none"/>
+  <path d="M66 114 Q81 108 96 114 Q111 108 126 114" stroke="#047857" stroke-width="3.5" fill="none"/>
+  <path d="M72 138 Q84 132 96 138 Q108 132 120 138" stroke="#047857" stroke-width="3" fill="none"/>
+  
+  <!-- Sistema de rastreamento -->
+  <circle cx="78" cy="78" r="8" fill="#a7f3d0" stroke="#047857" stroke-width="3"/>
+  <circle cx="96" cy="66" r="8" fill="#a7f3d0" stroke="#047857" stroke-width="3"/>
+  <circle cx="114" cy="78" r="8" fill="#a7f3d0" stroke="#047857" stroke-width="3"/>
+  <circle cx="84" cy="120" r="8" fill="#a7f3d0" stroke="#047857" stroke-width="3"/>
+  <circle cx="108" cy="120" r="8" fill="#a7f3d0" stroke="#047857" stroke-width="3"/>
+  <circle cx="96" cy="144" r="8" fill="#a7f3d0" stroke="#047857" stroke-width="3"/>
+  
+  <!-- Rede de conexões -->
+  <path d="M78 78 L96 66 L114 78 M84 120 L108 120 M96 66 L96 90" 
+        stroke="#d1fae5" stroke-width="4" fill="none" opacity="0.9"/>
+  <path d="M78 78 L84 120 M114 78 L108 120 M96 90 L96 144" 
+        stroke="#d1fae5" stroke-width="3.5" fill="none" opacity="0.8"/>
+  <path d="M84 120 L96 144 L108 120" 
+        stroke="#d1fae5" stroke-width="3" fill="none" opacity="0.7"/>
+</svg>

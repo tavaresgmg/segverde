@@ -1,0 +1,39 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo circular com gradiente -->
+  <defs>
+    <radialGradient id="bgGradient" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </radialGradient>
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Fundo principal -->
+  <circle cx="60" cy="60" r="55" fill="url(#bgGradient)" stroke="#047857" stroke-width="3"/>
+  
+  <!-- Folha principal estilizada -->
+  <path d="M25 75 Q30 25 60 35 Q90 25 95 75 Q90 95 60 85 Q30 95 25 75 Z" 
+        fill="url(#leafGradient)" stroke="#065f46" stroke-width="2"/>
+  
+  <!-- Nervuras da folha -->
+  <path d="M60 35 Q60 50 60 85" stroke="#047857" stroke-width="2.5" fill="none"/>
+  <path d="M45 50 Q52 45 60 50 Q68 45 75 50" stroke="#047857" stroke-width="1.5" fill="none"/>
+  <path d="M40 65 Q50 60 60 65 Q70 60 80 65" stroke="#047857" stroke-width="1.5" fill="none"/>
+  
+  <!-- Sistema de rastreamento - pontos conectados -->
+  <circle cx="45" cy="45" r="4" fill="#6ee7b7" stroke="#047857" stroke-width="1"/>
+  <circle cx="60" cy="40" r="4" fill="#6ee7b7" stroke="#047857" stroke-width="1"/>
+  <circle cx="75" cy="45" r="4" fill="#6ee7b7" stroke="#047857" stroke-width="1"/>
+  <circle cx="50" cy="65" r="4" fill="#6ee7b7" stroke="#047857" stroke-width="1"/>
+  <circle cx="70" cy="65" r="4" fill="#6ee7b7" stroke="#047857" stroke-width="1"/>
+  
+  <!-- Conexões de rede -->
+  <path d="M45 45 L60 40 L75 45 M50 65 L70 65 M60 40 L60 50" 
+        stroke="#a7f3d0" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M45 45 L50 65 M75 45 L70 65" 
+        stroke="#a7f3d0" stroke-width="1.5" fill="none" opacity="0.6"/>
+</svg>
