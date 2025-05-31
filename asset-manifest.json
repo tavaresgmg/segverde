@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/segverde/static/css/main.b4ea256c.css",
-    "main.js": "/segverde/static/js/main.6a1f6810.js",
+    "main.js": "/segverde/static/js/main.10c30c02.js",
     "static/js/488.6e6452e1.chunk.js": "/segverde/static/js/488.6e6452e1.chunk.js",
     "service-worker.js": "/segverde/service-worker.js",
     "index.html": "/segverde/index.html",
     "main.b4ea256c.css.map": "/segverde/static/css/main.b4ea256c.css.map",
-    "main.6a1f6810.js.map": "/segverde/static/js/main.6a1f6810.js.map",
+    "main.10c30c02.js.map": "/segverde/static/js/main.10c30c02.js.map",
     "488.6e6452e1.chunk.js.map": "/segverde/static/js/488.6e6452e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4ea256c.css",
-    "static/js/main.6a1f6810.js"
+    "static/js/main.10c30c02.js"
   ]
 }
