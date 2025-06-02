@@ -12,7 +12,7 @@
 
 > 🏆 **Award-winning agricultural traceability solution** using cutting-edge technology
 
-**Developed by [Guilherme Tavares](https://github.com/tavaresgmg)** - CTO & Full-Stack Developer | 8x Hackathon Winner
+**Developed by [Guilherme Tavares](https://github.com/tavaresgmg)** - CTO & Full-Stack Developer | 9x Hackathon Champion
 
 [**🚀 LIVE DEMO**](https://guilhermetavares.github.io/segverde) | [📱 Mobile Experience](https://guilhermetavares.github.io/segverde) | [🎯 AgroStartup 2025](https://faeg.com.br)
 
