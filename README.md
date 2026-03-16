@@ -26,7 +26,7 @@
 
 ### 🏆 **Achievement Highlights**
 🥉 **3rd Place at AgroStartup 2025** - Brazil's largest agricultural hackathon  
-🌟 **50+ competing teams** from across Latin America  
+🌟 **50+ competing teams** from across the country  
 🎯 **Focus on agricultural innovation** and sustainability  
 📈 **Recognition by FAEG** (Federação da Agricultura de Goiás)
 
@@ -273,7 +273,6 @@ src/
 ## 📞 **Professional Contact**
 
 **Guilherme Tavares** - Project Lead & Full-Stack Developer  
-🔗 **LinkedIn**: [/in/tavaresgmg](https://linkedin.com/in/tavaresgmg)  
 📧 **Email**: contact@tavaresgmg.dev  
 🌐 **Portfolio**: [tavaresgmg.dev](https://tavaresgmg.dev)  
 
